@@ -311,6 +311,7 @@ namespace PRoConEvents
         {
             this.whosIt.Enabled = false;
             this.roundTimer.Enabled = false;
+            this.checkIfWinIsImminent.Enabled = false;
             //this.tags.Add(DateTime.UtcNow);
             this.lessRecentTag = this.recentTag;
             this.recentTag = DateTime.UtcNow;
